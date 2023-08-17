@@ -48,3 +48,6 @@ body{
     justify-content: space-around;
     margin: 20px 0px;
 }
+.features ul{
+    display: flex;
+}
