@@ -69,3 +69,14 @@ ul li:is(:hover, .active){
     color: #fff;
     background: #5372f0;
 }
+.contact{
+    display: inline-block;
+    padding: 07px 5px;
+    color: #5375f0;
+    border: 2px solid #5375f0;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s linear;
+    
+
+}
