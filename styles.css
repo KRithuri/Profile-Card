@@ -14,3 +14,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+.card-wrapper{
+    width: 320px;
+    text-align: center;
+    border-radius: 08px;
+    background-color: #fff;
+    margin: 0 14px;
+}
