@@ -99,4 +99,9 @@ ul li:is(:hover, .active){
     font-size: 10px;
     color: #5375f0;
 }
+.items span{
+    display: block;
+    color: #333;
+    font-size: 20px;
+}
 
