@@ -93,3 +93,10 @@ ul li:is(:hover, .active){
     display: flex;
     align-items: center;
 }
+.items{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #5375f0;
+}
+
