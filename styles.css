@@ -7,3 +7,10 @@
     font-family: "poppins";
     text-decoration: none;
 }
+body{
+    background: linear-gradient(90deg, #2f1cff, #db5b6e );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
