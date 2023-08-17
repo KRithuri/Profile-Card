@@ -80,3 +80,8 @@ ul li:is(:hover, .active){
     
 
 }
+.cont-details:hover{
+    background-color: #5375f0;
+    color: #f2f2f2;
+
+}
