@@ -80,12 +80,16 @@ ul li:is(:hover, .active){
     
 
 }
-.cont-details:hover{
+.contact:hover{
     background-color: #5375f0;
     color: #f2f2f2;
 
 }
 .card-footer{
     background-color: #fff;
+    align-items: center;
+}
+.cont-details{
+    display: flex;
     align-items: center;
 }
