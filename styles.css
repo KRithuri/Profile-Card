@@ -8,27 +8,33 @@
     text-decoration: none;
 }
 body{
-    background: linear-gradient(90deg, #2f1cff, #db5b6e );
+    background: linear-gradient(90deg, #2f1cff, #008080 );
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.card-wrapper{
+.class-wrapper{
     width: 320px;
     text-align: center;
     border-radius: 08px;
     background-color: #fff;
     margin: 0 14px;
+    overflow: hidden;
 }
 .card-header{
     background: #2c3a47;
     padding: 60px 40px;
 }
+.picture{
+    display: inline-block;
+    padding: 05px;
+}
 .picture img{
-    border-radius: 50px;
+    border-radius: 50%;
     display: block;
     margin-top: -50px;
+    width: 200px;
 }
 .name{
     color: #fff;
@@ -69,9 +75,9 @@ ul li:is(:hover, .active){
     color: #fff;
     background: #5372f0;
 }
-.contact{
+.contact-btn{
     display: inline-block;
-    padding: 07px 5px;
+    padding: 07px 50px;
     color: #5375f0;
     border: 2px solid #5375f0;
     border-radius: 5px;
@@ -80,7 +86,7 @@ ul li:is(:hover, .active){
     
 
 }
-.contact:hover{
+.contact-btn:hover{
     background-color: #5375f0;
     color: #f2f2f2;
 
@@ -88,20 +94,27 @@ ul li:is(:hover, .active){
 .card-footer{
     background-color: #fff;
     align-items: center;
+    padding: 05px 05px;
 }
 .cont-details{
     display: flex;
-    align-items: center;
+    align-items:center;
 }
-.items{
-    flex: 1;
-    text-transform: uppercase;
-    font-size: 10px;
+.item{
+    flex: 0.6;
+    text-transform: lowercase;
+    font-size: 05px;
     color: #5375f0;
+    width: 5px;
 }
-.items span{
+.item span{
     display: block;
     color: #333;
-    font-size: 20px;
+    font-size: 10px;
+}
+.border{
+    width: 5px;
+    height: 30px;
+    background-color: #bbb;
 }
 
