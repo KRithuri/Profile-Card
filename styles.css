@@ -21,3 +21,7 @@ body{
     background-color: #fff;
     margin: 0 14px;
 }
+.card-header{
+    background: #2c3a47;
+    padding: 60px 40px;
+}
