@@ -4,7 +4,7 @@
 *{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    background: #0d1e3a;
+    background: darkcyan;
     color: #fff;
     text-align: center;
 }
@@ -22,9 +22,16 @@ p{
 .btn{
     display: block;
     text-decoration: none;
-    background: gray;
-    margin: 16px;
-    padding: 30px;
+    background: lightcyan;
+    color: black;
+    margin: 20px;
+    padding: 20px 5px;
+    box-shadow: 5px 10px #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+    color: #fff;
 }
 .social-icons{
     margin-top: 30px;
