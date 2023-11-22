@@ -8,6 +8,10 @@
     color: #fff;
     text-align: center;
 }
+body{
+    padding: 30px;
+    margin: 30px;
+}
 h1{
     font-size: large;
 }
